@@ -1,0 +1,31 @@
+---
+title: Papers
+layout: default
+background_image: '/static/img/under_agarose_1.png'
+background_overlay_alpha: 0.50
+main_title: OUR PAPERS
+sub_title: We are a team of scientists, engineers, and clinicians working together to cure cancer.
+top_content: |
+    <h2 style="width: 100vw;">Our Team</h2>
+
+---
+
+<div class="container">
+    {% assign sorted = site.papers | sort: "pub_date" | reverse %}
+    {% for paper in sorted %}
+    <div class="row"> <!-- BEGIN ROW -->
+        <div class="card">
+            <div class="col-sm-12">
+                <div class="card-body">
+                    <h2 class="card-title"><a href="{{paper.pdf}}" target="_blank">{{ paper.title | markdownify | remove: '<p>' | remove: '</p>' }}</a></h2>
+                    <h3 class="card-text">{{ paper.authors }}</h3>
+                    <h3 class="card-tags"><i>{{paper.journal}}</i> ({{paper.pub_date | split: "-" | first }}). doi: <a href="https://doi.org/{{paper.doi}}" target="_blank">{{paper.doi}}</a>. </h3>
+                    Access: <a href="{{ paper.pdf }}">PDF</a> | <a href="https://doi.org/{{paper.doi}}" target="_blank">Journal Website</a> | <a href="https://pubmed.ncbi.nlm.nih.gov/{{paper.pmid}}/" target="_blank">PubMed</a>
+                    <p class="card-text">{{ paper.content | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+                </div>
+            </div>
+        </div>
+    </div> <!-- END ROW -->
+<hr class="paper-divider">
+{% endfor %}
+</div>

@@ -1,2 +1,2 @@
-# greg-allen-lab.github.io
-Allen Lab website
+# allen-lab-website
+Lab of Greg Allen at UCSF

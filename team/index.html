@@ -1,0 +1,27 @@
+---
+title: Team
+layout: default
+background_image: '/static/img/under_agarose_1.png'
+background_overlay_alpha: 0.50
+main_title: OUR TEAM
+sub_title: We are a team of scientists, engineers, and clinicians working together to cure cancer.
+top_content: |
+    <h2 style="width: 100vw;">Our Team</h2>
+
+---
+<div class="container">
+    <br>
+<div class="row justify-center">
+  {% assign people = site.team_members | sort: "weight" %}
+    {% for member in people %}
+      <div class="col-xs-12 col-sm-6 col-md-3 team-member">
+        <div class="team-member-profile">
+          <img src="{{ member.image }}" alt="{{ member.name }}" class="img-responsive">
+          <h3>{{ member.name }}</h3>
+          <p>{{ member.title }}</p>
+          <hr>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

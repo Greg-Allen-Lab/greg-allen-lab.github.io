@@ -1,0 +1,60 @@
+name: "Greg Allen Lab"
+
+title: "Lab of Greg Allen at UCSF"
+tagline: "Computational + Synthetic Biology -> Human Cell Engineering"
+description: "I am a computational and experimental scientist interested in building the next generation of cell therapies."
+# url: "https://hershbhargava.com"
+author: "Hersh K. Bhargava"
+
+#SEO
+# twitter:
+#   username: hershbhargava
+#   card: summary_large_image
+# social:
+#   name: Hersh Bhargava
+#   links:
+#     - https://twitter.com/HershBhargava
+#     - https://github.com/hbhargava7
+#     - https://www.youtube.com/@HershBhargava1
+#     - https://www.linkedin.com/in/hbhargava1/
+# webmaster_verifications:
+#   google: RW1ZTDaj3CJgqOyLIUMYpPON0ER32RkVx1I0q2knRDM
+
+# # Default picture for pages
+# defaults:
+#   - scope:
+#       path: ""
+#     values:
+#       image: /static/img/graphics/vintcerf.png
+#   - scope:
+#       path: 'static/pdf/**'
+#     values:
+#       sitemap: false
+
+permalink: pretty
+
+exclude:
+  - build.sh
+  - live.sh
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+collections:
+  - team_members
+  - papers
+#   - projects
+
+kramdown:
+  toc_levels: 2..3
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap

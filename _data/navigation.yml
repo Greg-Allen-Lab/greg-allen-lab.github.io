@@ -1,0 +1,24 @@
+- name: home
+  link: "/"
+  group: home
+  text: Home
+
+- name: research 
+  link: "/research"
+  group: research
+  text: Research
+
+- name: team
+  link: "/team"
+  group: team
+  text: Team
+
+- name: papers
+  link: "/papers"
+  group: papers
+  text: Papers
+
+- name: contact
+  link: "/contact"
+  group: contact
+  text: Contact
