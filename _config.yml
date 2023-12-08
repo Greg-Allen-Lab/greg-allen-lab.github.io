@@ -48,8 +48,10 @@ exclude:
   - vendor/ruby/
 
 collections:
-  - team_members
-  - papers
+  team_members:
+    output: true      
+  papers:
+    output: false
 #   - projects
 
 kramdown:

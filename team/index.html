@@ -6,22 +6,30 @@ background_overlay_alpha: 0.50
 main_title: OUR TEAM
 sub_title: We are a team of scientists, engineers, and clinicians working together to cure cancer.
 top_content: |
-    <h2 style="width: 100vw;">Our Team</h2>
+<h2 style="width: 100vw;">Our Team</h2>
 
 ---
 <div class="container">
-    <br>
-<div class="row justify-center">
-  {% assign people = site.team_members | sort: "weight" %}
+  <br>
+  <div class="row justify-center">
+    {% assign people = site.team_members | sort: "weight" %}
     {% for member in people %}
-      <div class="col-xs-12 col-sm-6 col-md-3 team-member">
-        <div class="team-member-profile">
+    <div class="col-xs-12 col-sm-6 col-md-3 team-member">
+      <div class="team-member-profile">
+        <a href="{{ member.url }}">
+        <div class="img-container">
           <img src="{{ member.image }}" alt="{{ member.name }}" class="img-responsive">
-          <h3>{{ member.name }}</h3>
-          <p>{{ member.title }}</p>
-          <hr>
+          <div class="overlay">
+            <div class="text">Learn More</div>
+          </div>
         </div>
+      </a>
+
+        <h3>{{ member.name }}</h3>
+        <p>{{ member.title }}</p>
+        <hr>
       </div>
+    </div>
     {% endfor %}
   </div>
 </div>
