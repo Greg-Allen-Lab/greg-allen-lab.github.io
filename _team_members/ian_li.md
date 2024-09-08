@@ -2,7 +2,7 @@
 name: "Ian Li"
 image: "/static/img/team/ian_li.jpg"
 title: "Assistant Specialist"
-weight: 10
+weight: 5
 layout: team_member
 
 ---

@@ -687,3 +687,14 @@ p {
 .research-section h2 {
     margin-top: 0px;
 }
+
+.team_bio p {
+    font-size: 14pt;
+    font-weight: normal;
+}
+
+.alumni p {
+    font-size: 12pt;
+    font-weight: normal;
+
+}

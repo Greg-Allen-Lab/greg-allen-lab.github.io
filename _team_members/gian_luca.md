@@ -1,6 +1,6 @@
 ---
 name: "Gian Luca"
-image: "/static/img/team/gian_luca.jpeg"
+image: "/static/img/team/gian_luca.png"
 title: "Junior Specialist"
 weight: 10
 layout: team_member

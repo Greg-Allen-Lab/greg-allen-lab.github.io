@@ -5,5 +5,6 @@ journal: "Cell Systems"
 pub_date: "2020-09-23"
 doi: "10.1016/j.cels.2020.08.008"
 pmid: "32916096"
+pdf: "/static/pdf/2020_allen_cell_systems.pdf"
 pmcid: "PMC7530145"
 ---

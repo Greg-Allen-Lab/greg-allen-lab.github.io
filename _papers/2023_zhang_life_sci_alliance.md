@@ -4,6 +4,7 @@ authors: "Zhang J, Tsukui T, Wu X, Brito A, Trumble JM, Caraballo JC, Allen GM, 
 journal: "Life Science Alliance"
 pub_date: "2023-06-13"
 doi: "10.26508/lsa.202201869"
+pdf: "/static/pdf/2023_zhang_life_sci_alliance.pdf"
 pmid: "37311583"
 pmcid: "PMC10264967"
 ---

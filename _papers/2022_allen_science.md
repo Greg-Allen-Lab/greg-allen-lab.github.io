@@ -6,7 +6,7 @@ pub_date: "2022-12-16"
 # image: "/static/img/papers/2022_allen.png"
 doi: "10.1126/science.aba1624"
 pmid: "36520915"
-pdf: "/static/pdf/2022_Allen_Science.pdf"
+pdf: "/static/pdf/2022_allen_science.pdf"
 # supplement: "/static/pdf/2022_Allen_Science_supplement.pdf"
 journal_link: "https://www.science.org/stoken/author-tokens/ST-916/full"
 # links:
