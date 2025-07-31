@@ -1,0 +1,8 @@
+---
+name: "Emile"
+image: "/static/img/team/gian_luca.png"
+title: "Specialist"
+weight: 4
+layout: team_member
+---
+Emile
