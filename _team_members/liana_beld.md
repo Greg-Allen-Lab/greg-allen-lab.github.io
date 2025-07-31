@@ -1,6 +1,6 @@
 ---
 name: "Liana Beld"
-image: "/static/img/team/Liana_Beld.png"
+image: "/static/img/team/Liana_Beld.jpg"
 title: "BMS Graduate Student"
 weight: 4
 layout: team_member
