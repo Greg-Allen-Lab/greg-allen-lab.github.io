@@ -1,7 +1,7 @@
 ---
 name: "Debbie Lee"
 image: "/static/img/team/debbie_lee.jpg"
-title: "BioE GRADUATE STUDENT (JOINT WITH Dr. WENDELL LIM)"
+title: "BioE GRADUATE STUDENT (JOINT WITH WENDELL LIM)"
 weight: 4
 layout: team_member
 ---
