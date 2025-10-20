@@ -1,7 +1,7 @@
 ---
 name: "Mariam Nechiporuk"
 image: "/static/img/team/mariam_nechiporuk.jpg"
-title: "Technician"
+title: "Specialist"
 weight: 4
 layout: team_member
 ---
