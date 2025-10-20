@@ -1,7 +1,7 @@
 ---
 name: "Wenxi Zhang"
-image: "/static/img/team/gian_luca.png"
-title: "Graduate Student"
+image: "/static/img/team/wenxi_zhang.jpg"
+title: "Graduate Student (Joint with Hani Goodarzi)"
 weight: 4
 layout: team_member
 ---
