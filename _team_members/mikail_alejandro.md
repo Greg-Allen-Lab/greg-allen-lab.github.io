@@ -2,7 +2,7 @@
 name: "Mikail(Mikey) Alejandro"
 image: "/static/img/team/mikail_alejandro.jpg"
 title: "Assistant Specialist"
-weight: 4
+weight: 5
 layout: team_member
 ---
 Mikey was born and raised in the East Bay. He graduated from the University of San Francisco with a bachelor’s in Medicinal and Synthetic Chemistry. Prior to joining the Cell Design Institute (CDI), he did research on determining the role of mitochondria retained in blood cells in Sickle Disease pediatric patients.
