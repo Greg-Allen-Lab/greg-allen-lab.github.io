@@ -1,6 +1,6 @@
 ---
 name: "Wenxi Zhang"
-image: "/static/img/team/wenxi_zhang.jpg"
+image: "/static/img/team/wenxi_zhang1.jpg"
 title: "Tetrad Graduate Student (Joint with Hani Goodarzi)"
 weight: 4
 layout: team_member
